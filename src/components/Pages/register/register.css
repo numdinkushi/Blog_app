@@ -1,0 +1,54 @@
+.register{
+height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    color: White;
+    justify-content: center;
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/20/19/59/sunset-2083771_960_720.jpg");
+    background-size: cover;
+    align-items: center;
+}
+
+.registerTitle {
+font-size: 50px;
+
+}
+
+.registerForm {
+margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label {
+    margin: 10px 0;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+
+}
+
+.registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    background-color:goldenrod;
+    cursor: pointer;
+    padding: 10px;
+    color:white;
+    border-radius: 10px;
+}
